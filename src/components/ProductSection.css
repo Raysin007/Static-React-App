@@ -1,0 +1,399 @@
+.hero-content2 {
+  min-height: auto;        /* Remove fixed height */
+  display: flex;
+  justify-content: center; /* Center cards */
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;               /* Space between cards */
+  padding: 60px 20px;
+  background-color: white;
+}
+
+.hero-content2 .product-card1 {
+    width: 370px;
+    height: 500px;
+    border: 1px solid transparent;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product-card1 img {
+    width: 100%;
+    height: 55%;
+    border: 1px solid transparent;
+    border-radius: 50px;
+}
+
+.product-card1 p {
+   text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.product-card1 h3 {
+     font-family: "Poppins", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.product-card1 .star {
+    color: gold;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.product-card2 .star {
+    color: gold;
+}
+
+.product-card3 .star {
+    color: gold;
+}
+.qty-btn-jacket {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    right: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.qty-btn-jacket .minus,
+.plus,
+.num {
+    color: rgb(0, 0, 0);
+}
+
+.qty-btn-boot .minus,
+.plus,
+.num {
+    color: rgb(0, 0, 0);
+}
+
+.qty-btn-pants .minus,
+.plus,
+.num {
+    color: black;
+}
+
+.qty-btn-jacket :hover {
+    transform: scale(1.4);
+    transition: all 0.3s ease-in-out;
+}
+
+.buy-btn-jacket {
+     width: 100px;
+    height: 27px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 13, 13);
+    border: none;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    left: 60px;
+    bottom: 25px;
+}
+
+.buy-btn-jacket:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.hero-content2 .product-card2 {
+    width: 370px;
+    height: 500px;
+    border: 1px solid transparent;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.9);
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product-card2 img {
+    width: 100%;
+    height: 55%;
+    border: 1px solid transparent;
+    border-radius: 50px;
+
+}
+
+.product-card2 p {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.product-card2 h3 {
+    font-family: "Poppins", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.qty-btn-boot {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    right: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    font-weight: 600;
+
+}
+
+.qty-btn-boot :hover {
+    transform: scale(1.4);
+    transition: all 0.3s ease-in-out;
+}
+
+.buy-btn-boot {
+    width: 100px;
+    height: 27px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 13, 13);
+    border: none;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    left: 60px;
+    bottom: 25px;
+}
+
+.buy-btn-boot:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.hero-content2 .product-card3 {
+    width: 370px;
+    height: 500px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.9);
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product-card3 img {
+    width: 100%;
+    height: 55%;
+    border: 1px solid transparent;
+    border-radius: 50px;
+
+}
+
+.product-card3 p {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.product-card3 h3 {
+    font-family: "Poppins", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.qty-btn-pants {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    right: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    font-weight: 600;
+
+}
+
+.qty-btn-pants :hover {
+    transform: scale(1.4);
+    transition: all 0.3s ease-in-out;
+}
+
+.buy-btn-pants {
+    width: 100px;
+    height: 27px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 13, 13);
+    border: none;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    left: 60px;
+    bottom: 25px;
+}
+
+.buy-btn-pants:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.minus,
+.plus {
+    cursor: pointer;
+}
+.faq-section {
+    width: 100%;
+  margin: 60px 0; 
+    
+  
+
+}
+
+.faq {
+    background-color: rgb(255, 255, 255);
+  padding: 60px 12%;
+  max-width: 1200px;
+  margin: 0 auto;          /* Center */
+  width: 100%;
+}
+
+.faq h2 {
+     font-family: 'Boldonse', system-ui;
+  font-weight: 900;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.faq ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.faq ul li {
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+}
+
+.faq ul li input {
+    display: none;
+}
+
+.faq ul li label {
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    padding-left: 30px;
+}
+
+.faq ul li label::before {
+    content: '+';
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 24px;
+    line-height: 1;
+}
+
+.faq ul li input:checked+label::before {
+    content: '-';
+}
+
+.faq ul li .content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    font-family: "Poppins", sans-serif;
+    padding-left: 30px;
+}
+
+.faq ul li input:checked~.content {
+    max-height: 200px;
+    margin-top: 10px;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 60px ;
+  font-family: 'Smooch Sans', sans-serif;
+  font-size: 25px;
+  position: static;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;      /* Vertical stack */
+  align-items: flex-start;     /* Left-align all sections */
+  gap: 40px;
+  max-width: 1200px;
+  margin-left: 30px;
+  padding-left: 0px;          /* Extra left spacing */
+}
+
+.footer-section {
+  width: 100%;                 /* Full width for each section */
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;     /* Left-align content in each section */
+}
+
+.footer-section h2 {
+  font-family: 'Boldonse', system-ui;
+  font-weight: 900;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  padding-left: 0;
+}
+
+.footer-section-links {
+  font-family: 'Boldonse', system-ui;
+}
+
+.footer-section-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;               /* Horizontal icons */
+  gap: 25px;
+  justify-content: flex-start; /* Icons left-aligned */
+}
+
+.footer-section-links svg {
+  font-size: 28px;
+  transition: transform 0.3s ease;
+  color: white;
+}
+
+.footer-section-links a:hover svg {
+  transform: scale(1.2);
+}
+
+footer p {
+  margin: 8px 0;
+  padding: 0;
+  text-align: left;
+}

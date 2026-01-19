@@ -1,0 +1,23 @@
+.paraContent{
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.6;
+    padding-top: -4px;
+   
+}
+.shopBtn{
+     display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+    padding-top: 10px;
+}
+
+.shopBtn:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}

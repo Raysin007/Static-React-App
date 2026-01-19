@@ -1,0 +1,28 @@
+#navbarSupportedContent{
+    padding-left: 30%;
+    padding-bottom: 4px;
+    letter-spacing: 5px;
+}
+.searchBar{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding-left: 10px;
+}
+.mainIcons{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-self: center;
+}
+.cartNum{
+    border: 1px solid white;
+    background-color: rgb(94, 94, 94);
+    border-radius: 50px;
+    color: rgb(241, 241, 241);
+    position: relative;
+    bottom: 12px;
+    padding-left: 5px;
+   
+}
