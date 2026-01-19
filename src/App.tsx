@@ -2,7 +2,9 @@ import { useState } from "react";
 import NavBar from "./components/NavBar";
 import HeroSection from "./components/HeroSection";
 import ProductSection from "./components/ProductSection";
-import "/xampp/htdocs/mywebsite/freshreact/node_modules/bootstrap/dist/css/bootstrap.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import 'bootstrap/dist/js/bootstrap.bundle';
 import imagePath from "./assets/logo.jpg";
 
 
