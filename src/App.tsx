@@ -5,7 +5,6 @@ import ProductSection from "./components/ProductSection";
 import "/xampp/htdocs/mywebsite/freshreact/node_modules/bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import 'bootstrap/dist/js/bootstrap.bundle';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import imagePath from "./assets/logo.jpg";
 
 
